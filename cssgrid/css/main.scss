@@ -1,0 +1,25 @@
+body,html{
+    height: 100%;
+    background-color: red;
+}
+ 
+body{
+    margin: 0;
+    font-family:'Montserrat';
+}
+h1{
+    margin: 5rem;
+    color: red;
+}
+
+main{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(19rem,1fr));
+
+    .card{
+
+        img{    
+            width: 100%;
+        }
+    }
+}
